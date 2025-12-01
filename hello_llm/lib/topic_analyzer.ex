@@ -43,7 +43,7 @@ defmodule TopicAnalyzer do
     run_query(messages, TopicClassification)
   end
 
-  defp search_by_domain(%TopicClassification{domain: :finance, search_terms: terms}) do
+  defp search_by_domain(%TopicClassification{domain: :finance, search_terms: _terms}) do
     # Mock Yahoo Finance data
     {:ok, %{
       "stock_price" => "$156.42",

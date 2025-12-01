@@ -74,3 +74,8 @@ https://goto-code.com/why-elixir-otp-doesnt-need-agent-framework-part-1/
 ArticleBuilder.generate_content("Impact of AI on white collar jobs")
 ```
 
+### Routing
+
+```elixir
+TopicAnalyzer.analyze_topic(:entertainment)
+```
