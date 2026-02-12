@@ -66,7 +66,7 @@ iex(5)> InstructorLite.instruct(
 ```
 
 ## Why Elixir/OTP doesn't need an Agent framework: Part 1
-https://goto-code.com/why-elixir-otp-doesnt-need-agent-framework-part-1/
+[https://goto-code.com/why-elixir-otp-doesnt-need-agent-framework-part-1/](https://goto-code.com/why-elixir-otp-doesnt-need-agent-framework-part-1/)
 
 ### Prompt chaining
 
@@ -78,4 +78,14 @@ ArticleBuilder.generate_content("Impact of AI on white collar jobs")
 
 ```elixir
 TopicAnalyzer.analyze_topic(:entertainment)
+```
+
+## Why Elixir/OTP doesn't need an Agent framework: Part 2
+[https://goto-code.com/why-elixir-otp-doesnt-need-an-agent-framework-part-2/](https://goto-code.com/why-elixir-otp-doesnt-need-an-agent-framework-part-2/)
+
+
+### Parallelization
+
+```exlxir
+EssayTopicAnalysis.run_analysis("Universal Basic Income: A Necessary Evolution of Social Welfare")
 ```
